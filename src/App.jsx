@@ -9,8 +9,6 @@ import Login from "./pages/Login";
 import './App.css'
 
 function App() {
-  console.log("masuk")
-
   return (
     <>
       <BrowserRouter>
