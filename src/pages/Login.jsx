@@ -10,7 +10,7 @@ const Login = () => {
     e.preventDefault();
 
     if(username == "faiz" && password == "123"){
-      navigate('/', { replace: true });
+      navigate(-1, { replace: true }); // -1 untuk kembali ke halaman sebelumnya. '/' untuk kembali ke halaman utama
     } else{
       console.log("username atau password salah")
     }
